@@ -1,0 +1,12 @@
+{application, epdrv,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { epdrv_app, []}},
+  {env, []}
+ ]}.
