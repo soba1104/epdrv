@@ -1,4 +1,7 @@
 .*.swp
 /tmp
 /ebin
+/priv
+/c_src/*.o
+/c_src/*.d
 /.rebar
